@@ -1,5 +1,6 @@
 resources:
 # IBM Software
+- argocd/operators/openshift-pipelines.yaml
 
 ## Cloud Pak for Integration
 #- argocd/operators/ibm-ace-operator.yaml
