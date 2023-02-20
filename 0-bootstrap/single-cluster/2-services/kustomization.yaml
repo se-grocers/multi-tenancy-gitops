@@ -1,4 +1,20 @@
 resources:
+- argocd/operators/ibm-ace-operator.yaml
+- argocd/operators/ibm-platform-navigator.yaml
+- argocd/instances/ibm-platform-navigator-instance.yaml
+
+# IBM Foundations / Common Services
+- argocd/operators/ibm-foundations.yaml
+- argocd/instances/ibm-foundational-services-instance.yaml
+- argocd/operators/ibm-automation-foundation-core-operator.yaml
+#- argocd/operators/ibm-automation-foundation-operator.yaml
+
+# IBM Catalogs
+- argocd/operators/ibm-catalogs.yaml
+
+# Sealed Secrets
+- argocd/instances/sealed-secrets.yaml
+
 # IBM Software
 - argocd/operators/openshift-pipelines.yaml
 
